@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    width: 1297px;
+    height: 40px;
+    display: flex;
+}
+
+.logo {
+    width: 240px;
+    height: 38px;
+    margin: 10px;
+}
+
+.try {
+    justify-content: center;
+    color: #FF52C1;
+    width: 136px;
+    height: 40px;
+    border: 1px solid #FF52C1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    position: absolute;
+    right: 10px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.hero {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+.hero p {
+    text-align: center;
+}
+
+.get_started {
+    background: #FF52C1;
+    box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+    border-radius: 40px;
+    border: 1px solid #FF52C1;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    background-color: #00252E;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.footer-top {
+    width: 100%;
+    margin-bottom: 0;
+    display: block;
+}
+
+.logo {
+    fill: currentColor;
+    color: #fff;
+}
+.contact img {
+    display: inline-block;
+}
+
+.contact p {
+    display: inline-block;
+}
+
+
+.email-input {
+    width: 320px;
+    height: 48px;
+    border-radius: 6px;
+}
+
+.subscribe_btn {
+    background: #FF52C1;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #ffffff;
+    width: 160px;
+    height: 48px;
+    border: 1px solid #FF52C1;
+}
+
+
+@media only screen and (max-width: 480px)  {
+    
+}
