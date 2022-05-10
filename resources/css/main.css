@@ -163,7 +163,7 @@ width: 100%;
 
 footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #00252E;
     color: #ffffff;
     margin-top: 0;
@@ -205,9 +205,19 @@ footer {
     margin: 50px 0px;
 }
 
+
+.socials a {
+    text-decoration: none;
+}
 .socials img {
     width:2rem;
     margin-right: 10px;
+    filter: invert(99%) sepia(1%) saturate(4%) hue-rotate(4deg) brightness(103%) contrast(103%);
+    
+}
+
+.socials img:hover {
+    filter: invert(68%) sepia(43%) saturate(5266%) hue-rotate(153deg) brightness(108%) contrast(87%);
 }
 
 .subscribe_btn {
