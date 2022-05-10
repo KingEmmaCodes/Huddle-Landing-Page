@@ -74,7 +74,7 @@ header {
 }
 
 .get_started:hover {
-    opacity: 0.7;
+    background-color: #FF8ED6;
     cursor: pointer;
 }
 
@@ -179,6 +179,12 @@ footer {
 
 .lorem {
     padding: 30px 0;
+    width: 20rem;
+}
+
+.tips {
+    padding: 30px 0;
+    width: 23rem;
 }
 
 .contact-phone {
@@ -227,11 +233,17 @@ footer {
     color: #ffffff;
     width: 160px;
     height: 48px;
-    border: 1px solid #FF52C1;
-    font-family: 'Open Sans';
+    border: 0px;
+    font-family: 'Open Sans',sans-serif;
+    margin-left: 2rem;
+    font-weight: 700;
+    cursor: pointer;
     
 }
 
+.subscribe_btn:hover {
+    background-color: #FF8ED6;
+}
 
 @media only screen and (max-width: 480px)  {
     
