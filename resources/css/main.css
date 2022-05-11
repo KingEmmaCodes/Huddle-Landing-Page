@@ -85,7 +85,6 @@ header {
 
 .mockups {
     margin-top: 70px;
-    width: 800px auto;
 }
 
 .mockups img{
@@ -176,6 +175,10 @@ footer {
     padding: 150px;
 }
 
+.newsletter{
+    margin-left: 50px;
+}
+
 .footer-top {
     width: 100%;
     margin-bottom: 0;
@@ -184,12 +187,12 @@ footer {
 
 .lorem {
     padding: 30px 0;
-    width: 20rem;
+    width: fit-content;
 }
 
 .tips {
     padding: 30px 0;
-    width: 23rem;
+    width: fit-content;
 }
 
 .contact-phone {
@@ -250,7 +253,7 @@ footer {
     background-color: #FF8ED6;
 }
 
-@media all and (max-width: 768px)  {
+@media screen and (max-width: 768px)  {
     
     header {
         margin: 20px;
@@ -375,8 +378,81 @@ footer {
     
     .subscribe_btn {
         font-size: 1.1rem;
-        margin-bottom: 100px;
-        margin-left: 58%;
+        margin: 15px 0 100px 58%;
+        
     }
     
 }
+
+
+@media screen and (max-width: 480px)  {
+    
+    header {
+        margin: 20px;
+    }
+
+    .logo {
+        width: 150px;
+        height:20px;
+    }
+
+    .try {
+        width: 110px;
+        font-size: 0.7rem;
+        padding: 7px 15px;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 30px;
+        width: fit-content;
+    }
+
+    
+    
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .newsletter h3 {
+        font-size: 2rem;
+    }
+    .lorem {
+        padding: 30px 0;
+        width:fit-content;
+        
+    }
+    
+    .tips {
+        padding: 30px 0;
+        width: fit-content;
+        font-size: 1.1rem;
+    }
+    
+    
+    .email-input {
+        width: 100%;
+        height: 55px;
+        border-radius: 6px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .subscribe_btn {
+        font-size: 1.1rem;
+        margin: 15px 0 100px 41%;
+        
+    }
+    
+}
+
+
