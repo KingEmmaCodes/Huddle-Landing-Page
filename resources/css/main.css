@@ -431,20 +431,36 @@ footer {
     }
 
     .hero p {
-        font-size: .9rem;
+        font-size: 1.1rem;
         padding: 5px;
         width: fit-content;
     }
 
     .hero h1 {
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         padding: 5px;
         width: fit-content;
 
     }
 
+    .figures-title {
+        font-size: 3.8rem;
+    }
+
     .section {
-        margin: 100px 50px;
+        margin: 100px 30px;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+
+    .cta {
+        margin: 100px 30px;
+    }
+
+    .cta h2 {
+        font-size: 1.3rem;
     }
     
     footer {
