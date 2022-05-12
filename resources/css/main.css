@@ -409,6 +409,10 @@ footer {
         padding: 7px 15px;
     }
 
+    .hero {
+        margin: 100px 30px;
+    }
+
     .hero p {
         font-size: .9rem;
         padding: 5px;
@@ -422,10 +426,9 @@ footer {
 
     }
 
-    .section-text {
-        font-weight: bold;
+    .section {
+        margin: 50px;
     }
-
     
     footer {
         display: flex;
@@ -435,12 +438,15 @@ footer {
     }
 
     .footer-top{
-        width: 100%;
+        content: url('/resources/images/bg-footer-top-mobile.svg');
+        display: block;
         margin-bottom: 0;
+        border: 0;
     }
     .newsletter {
         display: flex;
         flex-direction: column;
+        margin: 10px;
     }
     
     .newsletter h3 {
@@ -464,13 +470,13 @@ footer {
         height: 55px;
         border-radius: 6px;
         padding: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     
     
     .subscribe_btn {
         font-size: 1.1rem;
-        margin: 15px 0 100px 28%;
+        margin: 10px 0 100px 36%;
         
     }
     
