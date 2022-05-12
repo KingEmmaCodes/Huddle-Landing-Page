@@ -1,9 +1,16 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/resources/fonts/Poppins-Regular.ttf') format('truetype');
+  }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
+
 
 header {
     height: 40px;
@@ -403,12 +410,22 @@ footer {
     }
 
     .hero p {
-        font-size: 1rem;
-        padding: 30px;
+        font-size: .9rem;
+        padding: 5px;
         width: fit-content;
     }
 
-    
+    .hero h1 {
+        font-size: 1.5rem;
+        padding: 5px;
+        width: fit-content;
+
+    }
+
+    .section-text {
+        font-weight: bold;
+    }
+
     
     footer {
         display: flex;
@@ -417,6 +434,10 @@ footer {
         padding: 50px;
     }
 
+    .footer-top{
+        width: 100%;
+        margin-bottom: 0;
+    }
     .newsletter {
         display: flex;
         flex-direction: column;
@@ -449,7 +470,7 @@ footer {
     
     .subscribe_btn {
         font-size: 1.1rem;
-        margin: 15px 0 100px 41%;
+        margin: 15px 0 100px 28%;
         
     }
     
